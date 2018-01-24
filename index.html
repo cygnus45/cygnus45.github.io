@@ -1,2 +1,317 @@
-This is a temporal WEB page of Nobeyama 45m Cygnus-X CO survey. 
-We will replace the contens after acceptance of the peer-reviewed science paper, and relase the FITS cubes from this page.
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4925837-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-4925837-6');
+    </script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/octicons/octicons.css">
+    <title>Cygnus-X Survey</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <style>
+      .jumbotron { background: url(cyg.jpg) center no-repeat; color: #ffffff; }
+      
+      .nav-link { color: #333333; }
+      .sidemenu-sticky { 
+          position: -webkit-sticky;
+          position: sticky;
+          top: 20px; 
+      }
+      
+      h2 {
+          background-image: url(nro45.png);
+          background-size: auto 100%;
+          background-repeat: no-repeat;
+          padding: 0 0 0 40px;
+      }
+      
+      .blog-post { margin-bottom: 70px; }
+      
+      .references { font-size: small; }
+      
+      .table { font-size: small; }
+      .table-colored td { border-color: #b284c1; }
+      .table-colored thead th { border-color: #b284c1; }
+      
+      a:hover .card img { opacity: 0.6; }
+      .card-body { color: #444444; padding: 5px 20px; }
+      
+      a .octicons { fill: #97CD76; }
+    </style>
+    
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Cygnus-X Survey</h1>          
+        <p>
+          "Surveys aren't the most important thing in astronomy – <br> they're the only thing." ---J. Ostriker
+        </p>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 d-none d-md-block">
+          <div class="card bg-white sidemenu-sticky">
+            <div class="card-header">Cygnus-X Survey</div>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="#">Top</a>
+              <a class="nav-link" href="#team">Team</a>
+              <a class="nav-link" href="#observations">Observations</a>
+              <a class="nav-link" href="#data">Data</a>
+              <a class="nav-link" href="#publications">Publications</a>
+            </nav>
+          </div>
+        </div>
+        
+        <main class="col-md-10 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+          <div id="about" class="blog-post">
+            <h1 class="blog-post-title">Cygnus-X Survey</h2>            
+            <p>
+              Cygnus-X is one of the most active high-mass star formation region in the Milky Way Galaxy<sup><a href="#rei07">1</a></sup>.
+              The region consists of two giant molecular clouds which harbor >50 high-mass stars, tens of HII regions and recent star formation signatures.
+              Its short distance (~1.4 kpc from our solar system<sup><a href="#ryg12">2</a></sup>) enable us to study in detail that star formation processes in the interstellar medium and effects of stellar feedback toward surrounding molecular materials.
+              We use recently developed instruments<sup><a href="#min16">3</a></sup> and telescope<sup><a href="#oni13">4</a></sup> to survey molecular lines toward the entire region of the Cygnus-X.
+            </p>
+            
+            <dl>
+              <dt class="references">References</dt>
+              <dl>
+                <ol class="references">
+                  <li id="rei07">
+                    Reipurth, B., & Schneider, N. 2008, Handbook of Star Forming Regions, Volume I, 4, 36,
+                    <a href="http://adsabs.harvard.edu/abs/2008hsf1.book...36R"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>
+                  </li>
+                  <li id="ryg12">
+                    Rygl, K. L. J., Brunthaler, A., Sanna, A., et al. 2012, A&A, 539, A79,
+                    <a href="http://adsabs.harvard.edu/abs/2012A&A...539A..79R"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>
+                  </li>
+                  <li id="min16">
+                    Minamidani, T., Nishimura, A., Miyamoto, Y., et al. 2016, Proceedings of the SPIE, 9914, 99141Z,
+                    <a href="http://adsabs.harvard.edu/abs/2016SPIE.9914E..1ZM"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>
+                  </li>
+                  <li id="oni13">
+                    Onishi, T., Nishimura, A., Ota, Y., et al. 2013, PASJ, 65, 78,
+                    <a href="http://adsabs.harvard.edu/abs/2013PASJ...65...78O"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>
+                  </li>
+
+
+                </ol>
+              </dl>
+            </dl>
+          </div>
+          
+          <div id="team" class="blog-post">
+            <h2 class="blog-post-title">Team</h2>
+            <ul>
+              <li>(PI) Atsushi Nishimura 西村淳 (NRO/NAOJ -> Nagoya University),  mailto: nishimura@a.phys.nagoya-u.ac.jp</li>
+              <li>Mitsuyoshi Yamagishi 山岸光義 (ISAS/JAXA)</li>
+              <li>Mitsuhiro Matsuo 松尾光洋 (NRO/NAOJ)</li>
+              <li>Shinji Fujita 藤田真司 (Nagoya University)</li>
+              <li>Kotomi Taniguchi 谷口琴美 (SOKENDAI)</li>
+              <li>Tatsuya Takekoshi 竹腰達哉 (University of Electro-Communications)</li>
+              <li>Tetsuhiro Minamidani 南谷哲宏 (NRO/NAOJ)</li>
+              <li>Kazuki Tokuda 徳田一起 (NAOJ, Osaka Prefecture University)</li>
+            </ul>
+          </div>
+          
+          <div id="observations" class="blog-post">
+            <h2 class="blog-post-title">Observations</h2>
+            <table class="table table-bordered table-colored">
+              <thead>
+                <tr>
+                  <th scope="col">Telescope</th>
+                  <th scope="col">Period</th>
+                  <th scope="col">Line</th>
+                  <th scope="col">Map size</th>
+                  <th scope="col">Spatial Res.</th>
+                  <th scope="col">Freq. Res.</th>
+                  <th scope="col">Noise level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#nro2016">NRO 45m <br />Internal Time<br />PI: A. Nishimura</a></td>
+                  <td>2016/1/13-5/8</td>
+                  <td><sup>12</sup>CO(1-0) <br /> <sup>13</sup>CO(1-0) <br /> C<sup>18</sup>O(1-0) <br /> CN(1-0)</td>
+                  <td>9 deg<sup>2</sup></td>
+                  <td>23'' <br /> ~0.15 pc</td>
+                  <td>30.52 kHz <br /> ~0.08 km/s</td>
+                  <td>0.5 K <br /> dv: 0.5 km/s</td>
+                </tr>
+                <tr>
+                  <td><a href="#nro2017">NRO 45m <br />Open Use<br />PI: M. Yamagishi</a></td>
+                  <td>2017/mm/dd-mm/dd <br /> 2018/mm/dd</td>
+                  <td> C<sup>18</sup>O(1-0) <br /> CN(1-0)</td>
+                  <td></td>
+                  <td>23'' <br /> ~0.15 pc</td>
+                  <td>30.52 kHz <br /> ~0.08 km/s</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><a href="#opu">OPU 1.85m</a></td>
+                  <td></td>
+                  <td><sup>12</sup>CO(2-1) <br /> <sup>13</sup>CO(2-1) <br /> C<sup>18</sup>O(2-1)</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div id="data" class="blog-post">
+            <h2 class="blog-post-title">Data</h2>
+            <p>
+              Reduced FITS files will be released after publishment of the corresponging science paper.
+              See following links for more detail information.
+            </p>
+            
+            <h4 id="nro2016">NRO 45m - internal time observation 2015</h4>
+            
+            <div class="row">
+            <div class="col-md-3">
+              <a href="#">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="nro2016-12co.jpg" alt="NRO2016 12CO(1-0)" />
+                  <div class="card-body">
+                    in preparation
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="nro2016-13co.jpg" alt="NRO2016 13CO(1-0)" />
+                  <div class="card-body">
+                    in preparation
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="nro2016-c18o.jpg" alt="NRO2016 C18O(1-0)" />
+                  <div class="card-body">
+                    in preparation
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="#">
+                <div class="card mb-4">
+                  <img class="card-img-top" src="nro2016-cn.jpg" alt="NRO2016 CN(1-0)" />
+                  <div class="card-body">
+                    <span class="badge badge-light">FITS</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            </div>
+            
+            <h4 id="nro2017">NRO 45m - open use observation 2016</h4>
+            <p>...</p>
+
+            <h4 id="opu">OPU 1.85m</h4>
+            <p>...</p>
+          </div>
+            
+
+          <div id="publications" class="blog-post">
+            <h2 class="blog-post-title">Publications</h2>
+            <dl>
+              <dt>Refereed journal</dt>
+              <dl>
+                <ul>
+                  <li>
+                    "Nobeyama 45m Cygnus-X CO survey I: photodissociation of molecules revealed by the unbiased large-scale CN and C<sup>18</sup>O maps"<br>
+                    Yamagishi, M., et al. submitted, ApJ, 
+                    <span><img class="octicons" src="dist/octicons/svg/info.svg"> ads</span>,
+		    <span><img class="octicons" src="dist/octicons/svg/book.svg"> paper</span>
+                  </li>
+                </ul>
+              </dl>
+              
+              <dt>International conference</dt>
+              <dl>
+                <ul>
+                  <li>
+                    "Nobeyama 45m large scale CO survey for Cygnus-X high-mass star-forming region"<br>
+                    Yamagishi, M., et al. <a href="http://alma-intweb.mtk.nao.ac.jp/~diono/meetings/NRO_ALMA_2016/">NRO-ALMA Science/Development Workshop 2016</a>, July 20-21 2016 Nobeyama,
+                    <span><img class="octicons" src="dist/octicons/svg/book.svg"> poster</span>
+                  </li>
+                  <li>
+                    "Nobeyama 45m large scale CO survey for Cygnus-X high-mass star-forming region"<br>
+                    Nishimura, A., et al. <a href="http://alma-intweb.mtk.nao.ac.jp/~eakiyama/UM2016/index.html">ALMA/45m/ASTE Users Meeting 2016</a>, December 19-20 2016 Mitaka,
+                    <a href="http://alma-intweb.mtk.nao.ac.jp/~eakiyama/UM2016/presentation/poster/nishimura.pdf"><img class="octicons" src="dist/octicons/svg/book.svg"> poster</a>
+                  </li>
+                  <li>
+                    "Nobeyama 45-m CO survey for Cygnus-X: possible evidences for formation of DR21 and W75N by cloud-cloud collision"<br>
+                    Nishimura, A., et al. <a href="https://galaxiesinparis.sciencesconf.org/">GALAXY EVOLUTION ACROSS TIME</a>, June 12-16 2017 Paris,
+                    <a href="http://adsabs.harvard.edu/abs/2017geat.confE..24N"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>,
+		    <a href="https://zenodo.org/record/806080/files/pari2017_nishimura_cygnus.v1.pdf"><img class="octicons" src="dist/octicons/svg/book.svg"> poster</a>
+                  </li>
+                  <li>
+                    "Nobeyama 45m Cygnus-X CO survey: possible evidences for formation of DR21 and W75N by cloud-cloud collision"<br>
+                    Nishimura, A., et al. <a href="http://www.nro.nao.ac.jp/~summerws/html/2017/">NRO45m/ASTE Single Dish Science Workshop 2017</a>, August 1-2 2017 Nobeyama,
+		    <a href="https://drive.google.com/open?id=1F33cv-uMoeAEQvFuAqnDOagtZlHfacWN"><img class="octicons" src="dist/octicons/svg/book.svg"> slide</a>
+                  </li>
+                  <li>
+                    "Nobeyama 45m Cygnus-X CO survey II: photo-dissociation of molecules revealed by the unbiased large-scale maps"<br>
+                    Yamagishi, M., et al. <a href="http://www.nro.nao.ac.jp/~summerws/html/2017/">NRO45m/ASTE Single Dish Science Workshop 2017</a>, August 1-2 2017 Nobeyama,
+		    <span><img class="octicons" src="dist/octicons/svg/book.svg"> slide</span>
+                  </li>
+                </ul>
+              </dl>
+
+              <dt>Domestic conference</dt>
+              <dl>
+                <ul>
+                  <li>
+                    "野辺山 45 m Cygnus-X CO サーベイ : 1. DR21/W75N 領域における分子雲衝突による星形成トリガーの可能性"<br>
+                    西村淳他, <a href="http://www.asj.or.jp/nenkai/archive/2017a/">日本天文学会2017年春季年会</a>, Q27a, 2017/3/15-18 九州大学,
+                    <a href="http://www.asj.or.jp/nenkai/archive/2017a/pdf/Q27a.pdf"><img class="octicons" src="dist/octicons/svg/info.svg"> abstract</a>,
+		    <a href="https://drive.google.com/open?id=1jQczT_uNveg-AR8r-eg_XT-pR3R9eDY9"><img class="octicons" src="dist/octicons/svg/book.svg"> slide</a>
+                  </li>
+                  <li>
+                    "野辺山 45 m Cygnus-X CO サーベイ : 2. C18O core properties"<br>
+                    竹腰達哉他, <a href="http://www.asj.or.jp/nenkai/archive/2017a/">日本天文学会2017年春季年会</a>, Q28b, 2017/3/15-18 九州大学,
+                    <a href="http://www.asj.or.jp/nenkai/archive/2017a/pdf/Q28b.pdf"><img class="octicons" src="dist/octicons/svg/info.svg"> abstract</a>,
+		    <span><img class="octicons" src="dist/octicons/svg/book.svg"> slide</span>
+		    <span><img class="octicons" src="dist/octicons/svg/book.svg"> poster</span>
+                  </li>
+                  <li>
+                    "野辺山 45 m Cygnus-X CO サーベイ: 3. CNデータから探る分子の光解離反応"<br>
+                    山岸光義他, <a href="http://www.asj.or.jp/nenkai/archive/2017a/pdf/Q29b.pdf">日本天文学会2017年春季年会</a>, Q29b, 2017/3/15-18 九州大学,
+                    <a href="http://www.asj.or.jp/nenkai/archive/2017a/pdf/Q28b.pdf"><img class="octicons" src="dist/octicons/svg/info.svg"> abstract</a>,
+		    <span><img class="octicons" src="dist/octicons/svg/book.svg"> slide</span>
+		    <span><img class="octicons" src="dist/octicons/svg/book.svg"> poster</span>
+                  </li>
+                </ul>
+              </dl>
+            </dl>
+          </div>
+            
+        </main>
+      </div>
+    </div>
+      
+  </body>
+</html>
